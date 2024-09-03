@@ -31,9 +31,9 @@ function closeMenu (){
             <a href="#" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Contactame</a>
             </div>
             <div className="ssm:block lg:hidden">
-                {toogle ? (
-                    <IoReorderThree onClick={closeMenu} size={30} className="text-white cursor-pointer"/>):( 
-                    <AiOutlineClose  onClick={openMenu} size={30} className="text-white"/>
+                {toggle ? (
+                    <AiOutlineClose onClick={closeMenu} size={30} className="text-white cursor-pointer"/>):( 
+                    <IoReorderThree  onClick={openMenu} size={30} className="text-white cursor-pointer"/>
                     )
                 }
 
@@ -41,8 +41,9 @@ function closeMenu (){
         </div>
     </div>
 
-    <div>
-        <div className="flex-justify-between ml-10">
+    <div className="ssm:block lg:hidden" >
+        {toggle ? (
+            <div className="flex-justify-between ml-10">
             <ul>
                 <li className="text-white text-xl mb-2 cursor-pointer">Inicio</li>
                 <li className="text-white text-xl mb-2 cursor-pointer">Sobre mi</li>
@@ -51,6 +52,10 @@ function closeMenu (){
 
             </ul>
         </div>
+        ):(
+            <div> </div>
+        )}
+        
     </div>
     </>
   )
