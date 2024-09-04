@@ -12,7 +12,15 @@ export default {
       lg:'1024px',
 
     },
-    extend: {},
+    extend: {
+      colors: {
+        customTeal: '#02C9AF',
+        customBlue: '#049CE4',
+        customPink: '#FE00EC',
+        customNavy: '#2B4F8D',
+        customDarkBlue: '#011034',
+      },
+    },
   },
   plugins: [],
 }

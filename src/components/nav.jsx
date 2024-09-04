@@ -14,7 +14,7 @@ function closeMenu (){
     setToggle(false);
 }
 
-  return (
+return (
     <>
     <div className="flex items-center justify-between p-10 lg:flex-row  ">
     <div>
@@ -58,7 +58,7 @@ function closeMenu (){
         
     </div>
     </>
-  )
+)
 }
 
 export default nav
