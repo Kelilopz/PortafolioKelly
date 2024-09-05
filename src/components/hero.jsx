@@ -21,7 +21,7 @@ const hero = () => {
     <div className="w-1/3 ssm:w-fit">
         <p className="text-4xl mb-4">Sobre mi</p>
         <p className="text-slate-300 ">Construyamos con la programación los servicios que tu necesites</p>
-        <button className="bg-white text-customDarkBlue px-10 py-2 my-3 rounded-full hover:bg-pink-600 hover:text-white">Ver más...</button>
+        <a href="#about-me"><button className="bg-white text-customDarkBlue px-10 py-2 my-3 rounded-full hover:bg-pink-600 hover:text-white">Ver más...</button></a>
         <div className="flex mt-5 space-x-4 cursor-pointer">
     <a href="https://github.com/Kelilopz" target="_blank" rel="noopener noreferrer">
         <FaGithub size={40} className="border-4 hover:border-pink-600 rounded-full"/>

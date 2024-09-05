@@ -15,13 +15,13 @@ export default function Project() {
     <>
       <div className='bg-customTeal m-5 sm:m-20 max-w-full'>
         <div className='grid justify-items-center m-5 sm:m-10'>
-          <h1 className='text-2xl sm:text-4xl text-white mt-5 sm:mt-10 font-bold'>Proyectos</h1>
+          <h1 className='text-5xl sm:text-5xl text-white mt-5 sm:mt-10 font-bold'>Proyectos</h1>
         </div>
 
         <div>
-          <div className='grid grid-cols-1 sm:grid-cols-2  gap-4 p-5'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 p-5'>
             <div className='max-w-full bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse'>
-              <div className='flex flex-row sm:flex-row'>
+              <div className='flex flex-col sm:flex-row'>
                 <div className='p-8'>
                   <div className='uppercase tracking-wide text-sm to-customNavy font-semibold'>
                     Ecommerce
@@ -91,7 +91,7 @@ export default function Project() {
                     <FaReact size={30} />
                   </div>
                 </div>
-                <div className='shrink-0 lg:pt-20 lg:p-5 ssm:px-20 ssm:pb-5'>
+                <div className='shrink-0  lg:p-5 ssm:px-20 ssm:pb-5'>
                   <img src={Project3Img} alt="Project3" className="w-full max-w-xs" />
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function Project() {
 
             <div className='max-w-full bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse'>
               <div className='flex flex-col sm:flex-row'>
-                <div className='shrink-0 lg:pt-20 lg:p-5 ssm:px-10 ssm:pt-5'>
+                <div className='shrink-0 lg:p-5 ssm:px-10 ssm:pt-5'>
                   <img src={Project4Img} alt="Project4" className="w-full max-w-xs" />
                 </div>
                 <div className='p-8'>
@@ -108,7 +108,7 @@ export default function Project() {
                   </div>
                   <a href="#">Bienvenido al Cine</a>
                   <p className='mt-2 text-slate-500'>
-                    Plataforma web para la gestión de un cine, incluyendo la reserva de boletos y selección de asientos . Integrado con una base de datos MongoDB para un manejo eficiente de la información.
+                    Plataforma web para la gestión de un cine, incluyendo la reserva de boletos, selección de asientos y administración de funciones. Integrado con una base de datos MongoDB para un manejo eficiente de la información.
                   </p>
                   <div className='flex flex-wrap justify-center pt-2 gap-x-1 gap-y-2'>
                     <IoLogoJavascript size={30} />

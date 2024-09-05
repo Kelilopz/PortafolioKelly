@@ -6,7 +6,7 @@ import T4 from "../assets/T4.jpg"
 export default function aboutMe() {
   return (
 
-      <div className="flex flex-col bg-customNavy m-20">
+      <div className="flex flex-col bg-customNavy m-5 sm:m-20 max-w-full">
       <h1 className='text-center pb-10 text-4xl sm:text-5xl text-white mt-5 sm:mt-10 font-bold'>Sobre mí</h1>
   
       <div className="flex gap-8 p-5 ssm:flex-col lg:flex-row">
