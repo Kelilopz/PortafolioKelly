@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaFortAwesome } from "react-icons/fa";
 import { IoReorderThree } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
+import AboutMe from "./aboutMe";
 
 const nav = () => {
 
@@ -25,10 +26,10 @@ return (
     </div>
         <div className="space-x-4">
             <div className="ssm:hidden lg:block space-x-2">
-            <a href="#" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Inicio</a>
-            <a href="#" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Sobre mi</a>
-            <a href="#" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Proyectos</a>
-            <a href="#" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Contactame</a>
+            <a href="#hero" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Inicio</a>
+            <a href="#about-me" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Sobre mi</a>
+            <a href="#project" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Proyectos</a>
+            <a href="#contact" className="text-white hover:bg-pink-600 rounded-full px-5 py-2 text-xl ">Contactame</a>
             </div>
             <div className="ssm:block lg:hidden">
                 {toggle ? (

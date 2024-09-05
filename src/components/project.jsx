@@ -19,9 +19,9 @@ export default function Project() {
         </div>
 
         <div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 p-5'>
+          <div className='grid grid-cols-1 sm:grid-cols-2  gap-4 p-5'>
             <div className='max-w-full bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse'>
-              <div className='flex flex-col sm:flex-row'>
+              <div className='flex flex-row sm:flex-row'>
                 <div className='p-8'>
                   <div className='uppercase tracking-wide text-sm to-customNavy font-semibold'>
                     Ecommerce

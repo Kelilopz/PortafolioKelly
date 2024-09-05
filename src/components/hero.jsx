@@ -23,10 +23,16 @@ const hero = () => {
         <p className="text-slate-300 ">Construyamos con la programación los servicios que tu necesites</p>
         <button className="bg-white text-customDarkBlue px-10 py-2 my-3 rounded-full hover:bg-pink-600 hover:text-white">Ver más...</button>
         <div className="flex mt-5 space-x-4 cursor-pointer">
-        <FaGithub  size={40} className="border-4 hover:border-pink-600 rounded-full"/>
-        <FaLinkedin size={40} className="border-4 hover:border-pink-600 rounded-full" />
-        <IoMail size={40} className="border-4 hover:border-pink-600 rounded-full" />
-        </div>
+    <a href="https://github.com/Kelilopz" target="_blank" rel="noopener noreferrer">
+        <FaGithub size={40} className="border-4 hover:border-pink-600 rounded-full"/>
+    </a>
+    <a href="https://www.linkedin.com/in/kelly-lopez-amaya" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin size={40} className="border-4 hover:border-pink-600 rounded-full"/>
+    </a>
+    <a href="mailto: kelilopz2171804@gmail.com">
+        <IoMail size={40} className="border-4 hover:border-pink-600 rounded-full"/>
+    </a>
+</div>
     </div>
    </section>
   )
