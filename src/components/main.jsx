@@ -2,7 +2,7 @@ import Nav from "./nav"
 import Hero from "./hero"
 import Project from "./project"
 import AboutMe from "./aboutMe"
-import Contact from "./Contact"
+import Contact from "./contact"
 import Footer from "./footer"
 import Services from "./services"
 
